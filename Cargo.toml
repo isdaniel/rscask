@@ -1,9 +1,9 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/rscask",
-    "crates/rscaskd",
-    "crates/rscask-cli",
+    "src/rscask",
+    "src/rscaskd",
+    "src/rscask-cli",
 ]
 
 [workspace.dependencies]
