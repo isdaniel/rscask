@@ -1,0 +1,12 @@
+[package]
+name = "rscaskd"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { workspace = true }
+bincode = { workspace = true }
+rscask = { path = "../rscask" }
+
+[dev-dependencies]
+tempfile = "3.10"

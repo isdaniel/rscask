@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/rscask",
+    "crates/rscaskd",
+    "crates/rscask-cli",
+]
+
+[workspace.dependencies]
+clap = { version = "4.5.57", features = ["derive"] }
+serde = { version = "1.0.228", features = ["derive"] }
+bincode = { version = "2.0.1", features = ["serde"] }
+thiserror = "2.0.18"
